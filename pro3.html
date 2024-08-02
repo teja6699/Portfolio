@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1 style="color: red; text-align: center; font-size: 50px;">Collision Avoidance</h1>
+<body>
+    <p style="font-size: 20px; text-align: justify;">This project focuses on detecting potential collisions and measuring distances between objects by analyzing pre-recorded video footage using advanced deep learning techniques. We employ YOLO v4 (You Only Look Once) real-time object detection model to identify objects and assess collision risks within video frames. Our approach involves processing each frame of the video to detect and localize objects such as vehicles, pedestrians, and cyclists. The YOLO v4 model, trained on a comprehensive dataset of annotated driving scenarios, accurately identifies these objects and determines their bounding boxes. By analyzing the positions of detected objects across consecutive frames, the system measures the distances between objects and evaluates the likelihood of collisions.
+    </p><br>
+    <div class="para1" style="font-size: 20px; text-align: justify;">
+    <p>
+        <h2>Data Collection:</h2>
+        Collecting a real-time video from the source.
+        
+        <h2>Data Preprocessing:</h2>
+        The collected dataset undergoes preprocessing, which includes resizing, normalization, and data augmentation to ensure consistent and high-quality input for YOLOv4.
+        
+        <h2>Detection:</h2>
+        The system uses YOLOv4 for real-time vehicle detection and classification. YOLOv4 processes the video frames directly, identifying vehicles and their types with high precision and speed. The model outputs bounding boxes around detected vehicles, along with confidence scores and classification labels, enabling accurate localization and categorization of vehicles in each frame.
+        
+        <h2>Calculating the Distance:</h2>
+        YOLOv4 is used to detect vehicles and estimate their distances within the video frames. The system employs techniques such as perspective transformation and bounding box dimensions to estimate the distance between vehicles. If a vehicle is detected within a critical range (e.g., 100 meters), the system sends an alert message indicating a potential collision.
+        </p>
+        </div>
+
+
+    
+</body>
+</html>

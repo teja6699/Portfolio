@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1 style="color: red; text-align: center; font-size: 50px;">Human Action Recognition</h1>
+<body>
+    <p style="font-size: 20px; text-align: justify; ">Effective classroom instruction requires monitoring student participation and interaction during 
+        class, identifying cues to simulate their attention. The ability of teachers to analyze and evaluate 
+        students’ classroom behavior is becoming a crucial criterion for quality teaching. . However, it is 
+        difficult for instructors to assess students’ interest and attention levels even with these technologies. This study harnesses modern technology to introduce an intelligent real-time 
+        vision-based classroom to monitor students’ emotions, attendance, and attention levels even when they have face masks on. We used a machine learning approach to train students’ behavior recognition models, including identifying facial expressions, to identify students’ attention and nonattention in a classroom. The use of deep learning methods for automatic detection of students’ classroom behavior is a promising approach to analyze their class performance and enhance teaching effectiveness. However, the lack of publicly available datasets on student behavior poses a challenge for researchers in this field. The dataset is given the YOLOv8 pre-trained weights for training. For validation, the performance of various versions of the YOLOv8 model are compared based on different evaluation measures (precision, recall, mAP, and F1 score). Our results show that all models show promising performance with --- average accuracy. Applying the developed model can enable instructors to visualize students’ behavior and emotional states at different levels, allowing them to appropriately manage teaching sessions by considering student-centered learning scenarios. Overall, the proposed model will enhance instructors to identify the behaviour patterns of students
+        <br>
+        </p>
+        <div class="para" style="font-size: 20px;margin-left: 20px;">
+        <p><h2>Data Collection</h2>
+            The system should collect various types of data, including but not limited to:<br>
+            Attendance records<br>
+            Academic performance metrics<br>
+            Behavioural records (e.g., disciplinary actions, participation, engagement)<br>
+            Extracurricular activity involvement<br>
+        <h2>Data Preprocessing</h2>
+            Data should be cleaned, pre processed, and standardized for machine learning algorithms.<br>
+            Missing or inconsistent data should be handled appropriately.<br>
+        <h2>Machine Learning Analysis</h2>
+            Implement machine learning models to analyze student behaviour based on historical data.<br>
+            Create models to predict potential behavioural issues, such as dropout risks, absenteeism, or
+            behavioural changes.<br>
+            <h2>Monitoring and Alerting</h2>
+            Monitor real-time data to detect patterns deviating from established behavioural norms.<br>
+            Generate alerts for educators or administrators when potential issues are identified.<br>
+            <h2>Reporting</h2>
+            Develop a reporting system to present insights and trends derived from the analyzed data.<br>
+            Reports should be easily understandable and actionable for educators and administrators</p>
+        </div>
+
+        <div class="para" style="font-size: 20px;margin-left: 20px;">
+            <h2>Machine Learning Algorithm</h2>
+            <h2>YOLOv8</h2>
+                <p>YOLOv8 is the newest state-of-the-art YOLO model that can be used for object detection,
+                image classification, and instance segmentation tasks. YOLOv8 was developed by
+                Ultralytics, who also created the influential and industry-defining YOLOv5 model. YOLOv8
+                includes numerous architectural and developer experience changes and improvements over
+                YOLOv5.
+                Model Architecture
+                YOLOv8 utilizes a convolutional neural network that can be divided into two main parts:
+                the backbone and the head.
+                A modified version of the CSPDarknet53 architecture forms the backbone of YOLOv8.
+                This architecture consists of 53 convolutional layers and employs cross-stage partial
+                connections to improve information flow between the different layers.
+                The head of YOLOv8 consists of multiple convolutional layers followed by a series of fully
+                connected layers.These layers are responsible for predicting bounding boxes, objectness
+                scores, and class probabilities for the objects detected in an image.One of the key features
+                of YOLOv8 is the use of a self-attention mechanism in the head of the network
+                </p>
+        </div>
+
+    
+</body>
+</html>
